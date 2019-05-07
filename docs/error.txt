@@ -1,0 +1,8 @@
+{user} :spy: invalid command syntax
+usage:	
+    {sym} auth [order_number]                        
+    {sym} gen [country_code] [mail_type] [email] [quantity]
+	{sym} gen [country_code] random [quantity]
+	{sym} help
+       
+type '!help' for a detailed documentation

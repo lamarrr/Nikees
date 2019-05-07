@@ -1,0 +1,19 @@
+{   
+    "orderNumber": {
+            "id": "" ,//to send message to pm
+            "displayName": "" ,
+            "tag": "", // random,catchall,gee
+            "uid": "" , // lamarrr#1234 
+            "qty": 0,
+            "country": "XX", // US, GB, CN
+            "processed": [ 
+                                    { "email" : "", "password" : "", "firstName": "", "secondName": "" },
+                                    { "email" : "", "password" : "", "firstName": "", "secondName": "" }
+                                  ] 
+        },
+        "emails": {
+                "yet": []
+        }
+            
+     
+}

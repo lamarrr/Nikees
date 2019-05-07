@@ -1,0 +1,31 @@
+{user}
+:robot:
+How to use:
+
+'auth' Command:
+After obtaining your order number from: {SI} , you need to authorize/validate your account to be able to generate Nike accounts
+
+        {sym} auth [order_number] 
+
+
+'gen' Command: 
+Used to generate accounts after authorization.
+
+        {sym} gen [country_code] gmail [email] [quantity]
+        {sym} gen [country_code] catchall [domain] [quantity]
+        {sym} gen [country_code] random [quantity]
+
+
+i.e. let's say I need 20 Nike accounts from United Kingdom using my gmail account as the registration email, I type:
+        {sym} gen GB gmail user12345@gmail.com 20
+
+i.e. Let's now say I need to use a random email address instead, I type:
+        {sym} gen GB random 22
+
+Let's now say I need to use a catchall domain instead, I type:
+        {sym} gen GB catchall mydomain.com 20
+
+
+'help' Command:
+links here
+        {sym} help 
